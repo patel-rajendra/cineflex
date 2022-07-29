@@ -1,0 +1,108 @@
+.userFormWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    height: calc(100vh);
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0.1)
+    ),
+        url('../assets/images/movies-background.jpg');
+    background-size: cover;
+}
+
+.login-title,
+.login-p {
+    color: white;
+}
+
+.login-p {
+    padding-bottom: 1%;
+    width: 60%;
+    text-align: center;
+}
+
+.text-below-form {
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.userForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.userForm div {
+    flex: 2 100%;
+}
+
+.userForm p {
+    color: white;
+}
+
+.userForm p a {
+    color: #ccc;
+}
+
+.userForm p a:hover {
+    color: #FFE066;
+}
+
+.login-input {
+    padding: 2%;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: rgba(0,0,0,0);
+    margin-bottom: 3%;
+    background-color: white;
+}
+
+.login-label {
+    color: white;
+    width: 100%;
+}
+
+.login-btn {
+    background-color: #FFE066;
+    border: 0;
+    width: 100%;
+    padding: 1%;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    min-height: 40px;
+    margin-top: 1%;
+}
+
+.login-signup-here {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+  
+@media screen and (max-width: 460px) {
+    .login-p {
+        padding-bottom: 1%;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .text-below-form {
+        padding-bottom: 1%;
+        text-align: center;
+    }
+
+    .userForm {
+        width: 80%;
+    }
+}
